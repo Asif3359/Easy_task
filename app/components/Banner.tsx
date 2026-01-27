@@ -8,25 +8,25 @@ import { RiDownloadLine } from "react-icons/ri";
 
 function Banner() {
   return (
-    <div className=" flex flex-row justify-between items-start pt-22">
+    <div className=" flex flex-row justify-between items-start">
       <div className="flex-[0.3] flex flex-col bg-black p-4 ml-8">
         <div>
           <Image src="/man.png" width={300} height={500} alt="" />
         </div>
         <div className="flex flex-row justify-between items-center gap-2 mt-2">
-          <Link href="">
+          <Link href="#facebook">
             <CiFacebook className="text-4xl font-bold" />
           </Link>
-          <Link href="">
+          <Link href="#linkedin">
             <FaLinkedin className="text-4xl font-bold" />
           </Link>
-          <Link href="">
+          <Link href="#github">
             <FaGithub className="text-4xl font-bold" />
           </Link>
-          <Link href="">
+          <Link href="#twitter">
             <FaTwitter className="text-4xl font-bold" />
           </Link>
-          <Link href="">
+          <Link href="#instagram">
             <IoLogoInstagram className="text-4xl font-bold" />
           </Link>
         </div>

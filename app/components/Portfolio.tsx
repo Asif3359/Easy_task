@@ -52,7 +52,9 @@ function Portfolio() {
   return (
     <section className="mt-16 px-8 flex flex-row justify-end items-start">
       <section className="w-3/4 px-12">
-        <h2 className="text-3xl font-semibold mb-6">Portfolio</h2>
+        <h2 id="portfolio" className="text-3xl font-semibold mb-6">
+          Portfolio
+        </h2>
 
         <div className="bg-[#101211] rounded-md px-4 py-3 mb-6 flex flex-wrap gap-4 items-center">
           {categories.map((cat) => (

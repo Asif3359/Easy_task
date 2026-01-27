@@ -4,7 +4,7 @@ import { IoHomeOutline } from "react-icons/io5";
 
 function Navigation() {
   return (
-    <div className=" bg-[#121414] fixed top-0 left-0 w-full z-50">
+    <div className=" bg-[#121414] ">
       <div className="flex flex-row justify-between items-center container mx-auto">
         <div className="flex-[0.3] px-8 py-4">
           <h1 className="text-2xl font-bold">

@@ -4,14 +4,20 @@ import { FaUser } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
 import { FaFileAlt } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import Link from "next/link";
 
 function SideNavigation() {
   const navItems = [
-    { icon: IoHome, active: true, label: "Home" },
-    { icon: FaUser, active: false, label: "About" },
-    { icon: FaBriefcase, active: false, label: "Portfolio" },
-    { icon: FaFileAlt, active: false, label: "Blog" },
-    { icon: FaPhoneAlt, active: false, label: "Contact" },
+    { icon: IoHome, active: true, label: "Home", href: "/" },
+    { icon: FaUser, active: false, label: "About", href: "#resume" },
+    {
+      icon: FaBriefcase,
+      active: false,
+      label: "Portfolio",
+      href: "#portfolio",
+    },
+    { icon: FaFileAlt, active: false, label: "Blog", href: "#blog" },
+    { icon: FaPhoneAlt, active: false, label: "Contact", href: "#contact" },
   ];
 
   return (
@@ -19,8 +25,9 @@ function SideNavigation() {
       {navItems.map((item, index) => {
         const Icon = item.icon;
         return (
-          <button
+          <Link
             key={index}
+            href={item.href}
             className={`relative group transition-all duration-300 ${
               item.active
                 ? "text-amber-400 scale-110"
@@ -32,7 +39,7 @@ function SideNavigation() {
               <span className="absolute inset-0 rounded-full bg-amber-400/30 blur-lg animate-pulse" />
             )}
             <Icon className="text-2xl relative z-10" />
-          </button>
+          </Link>
         );
       })}
     </nav>

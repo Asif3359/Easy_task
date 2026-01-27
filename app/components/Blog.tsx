@@ -45,7 +45,9 @@ function Blog() {
   return (
     <section className=" px-8 flex flex-row justify-end items-start">
       <section className="w-3/4 px-12">
-        <h2 className="text-3xl font-semibold mb-6">Blog</h2>
+        <h2 id="blog" className="text-3xl font-semibold mb-6">
+          Blog
+        </h2>
         <div className="grid gap-5 md:grid-cols-2">
           <div className="grid gap-5 md:grid-cols-1 h-full">
             {posts.slice(0, 3).map((post) => (

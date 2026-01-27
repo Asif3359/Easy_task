@@ -32,7 +32,7 @@ function Pricing() {
               className="bg-[#000000] rounded-md border border-[#262827] px-8 py-12 flex flex-col justify-between relative overflow-hidden"
             >
               {plan.badge && (
-                <span className="absolute w-[100px] align-right -left-[13px] top-4 text-xs px-4 py-3 rounded-full bg-[#29221a] text-amber-300 z-0">
+                <span className="absolute w-[100px] align-right -left-[13px] top-4 text-xs px-4 py-3 rounded-full bg-[linear-gradient(89.71deg,#F5BD4D_0.23%,#F89222_59.88%)] text-white z-0">
                   {plan.name}
                 </span>
               )}

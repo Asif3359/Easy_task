@@ -5,7 +5,9 @@ function Lifetime() {
   return (
     <section className="mt-16 px-8 flex flex-row justify-end items-start gap-16 ">
       <section className="w-3/4 px-12">
-        <h1 className="text-4xl font-semibold mb-8">Resume</h1>
+        <h1 id="resume" className="text-4xl font-semibold mb-8">
+          Resume
+        </h1>
 
         {/* Education */}
         <div className="mb-12">
