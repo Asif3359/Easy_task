@@ -21,7 +21,7 @@ function SideNavigation() {
   ];
 
   return (
-    <nav className="fixed top-48 left-14 flex flex-col gap-8 z-50">
+    <nav className="hidden lg:flex fixed top-32 left-16 flex flex-col gap-8 z-50">
       {navItems.map((item, index) => {
         const Icon = item.icon;
         return (

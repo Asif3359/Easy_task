@@ -15,7 +15,7 @@ export default function Home() {
       <Navigation />
       <SideNavigation />
       <RightSideNavigation />
-      <section className="container mx-auto">
+      <section className=" container mx-auto max-auto px-3 ">
         <Banner />
         <Lifetime />
         <Skills />

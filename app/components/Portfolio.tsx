@@ -50,8 +50,8 @@ const PortfolioItem = ({
 
 function Portfolio() {
   return (
-    <section className="mt-16 px-8 flex flex-row justify-end items-start">
-      <section className="w-3/4 px-12">
+    <section className="mt-12 px-3 md:px-8 sm:mt-16 md:ml-18">
+      <section className="w-full lg:w-3/4 lg:ml-auto">
         <h2 id="portfolio" className="text-3xl font-semibold mb-6">
           Portfolio
         </h2>
@@ -80,7 +80,7 @@ function Portfolio() {
             <PortfolioItem
               title="Shopping bag"
               subtitle="Branding & packaging"
-              imageSrc="/portfolio-1.png"
+              imageSrc="/portfolio-2.png"
             />
           </div>
 
@@ -89,7 +89,7 @@ function Portfolio() {
               large
               title="Figma Mockup"
               subtitle="Figma mockup PSD editable"
-              imageSrc="/portfolio-1.png"
+              imageSrc="/portfolio-3.jpg"
             />
           </div>
 
@@ -97,7 +97,7 @@ function Portfolio() {
             <PortfolioItem
               title="Mobile app"
               subtitle="Finance application"
-              imageSrc="/portfolio-1.png"
+              imageSrc="/portfolio-4.jpg"
             />
           </div>
 
@@ -105,7 +105,7 @@ function Portfolio() {
             <PortfolioItem
               title="Website design"
               subtitle="Fitness Studio Website"
-              imageSrc="/portfolio-1.png"
+              imageSrc="/portfolio-5.jpg"
             />
           </div>
 
@@ -113,7 +113,7 @@ function Portfolio() {
             <PortfolioItem
               title="Coffee mug"
               subtitle="Brand identity"
-              imageSrc="/portfolio-1.png"
+              imageSrc="/portfolio-6.jpg"
             />
           </div>
 
@@ -128,7 +128,7 @@ function Portfolio() {
           <div className="row-span-1">
             <a
               href="#"
-              className="relative bg-black rounded-md px-6 py-10 flex items-center justify-center hover:bg-gray-800 transition-all duration-300"
+              className="relative bg-black rounded-md px-6 py-10 flex items-center justify-center hover:bg-gray-800 transition-all duration-300 h-full"
             >
               <button className="absolute top-3 right-3 w-7 h-7 rounded-full bg-[#121414] flex items-center justify-center border border-[#2a2a2a]">
                 <FaLink className="text-xs text-white" />
@@ -145,7 +145,7 @@ function Portfolio() {
           <div className="row-span-1">
             <a
               href="#"
-              className="relative bg-black rounded-md px-6 py-10 flex items-center justify-center hover:bg-gray-800 transition-all duration-300"
+              className="relative bg-black rounded-md px-6 py-10 flex items-center justify-center hover:bg-gray-800 transition-all duration-300 h-full"
             >
               <button className="absolute top-3 right-3 w-7 h-7 rounded-full bg-[#121414] flex items-center justify-center border border-[#2a2a2a]">
                 <FaLink className="text-xs text-white" />

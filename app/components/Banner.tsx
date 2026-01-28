@@ -8,12 +8,20 @@ import { RiDownloadLine } from "react-icons/ri";
 
 function Banner() {
   return (
-    <div className=" flex flex-row justify-between items-start">
-      <div className="flex-[0.3] flex flex-col bg-black p-4 ml-8">
+    // <div className=" flex flex-row justify-between items-start">
+    //   <div className="flex-[0.3] flex flex-col bg-black p-4 ml-8">
+    <section className=" flex flex-col md:flex-row justify-between items-start gap-6">
+      <div className="w-full md:flex-[0.3] flex flex-col bg-black p-4 md:ml-8">
         <div>
-          <Image src="/man.png" width={300} height={500} alt="" />
+          <Image
+            src="/man.png"
+            width={300}
+            height={500}
+            alt="Profile"
+            className="w-full h-auto"
+          />
         </div>
-        <div className="flex flex-row justify-between items-center gap-2 mt-2">
+        <div className="flex flex-row justify-between items-center gap-2 mt-4">
           <Link href="#facebook">
             <CiFacebook className="text-4xl font-bold" />
           </Link>
@@ -31,8 +39,8 @@ function Banner() {
           </Link>
         </div>
       </div>
-      <div className="flex-1 ">
-        <div className="p-12 w-4/5">
+      <div className="flex-1 w-full">
+        <div className="p-4 sm:p-6 md:p-12 w-full md:w-4/5">
           <h3 className="py-1">
             <span
               className="bg-[linear-gradient(89.71deg,#F5BD4D_0.36%,#F89222_99.88%)] 
@@ -41,10 +49,10 @@ function Banner() {
               INTRODUCTION
             </span>
           </h3>
-          <h1 className="text-6xl py-2">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl py-2">
             I&apos;m a Creative Developer & UI/UX Design Expert
           </h1>
-          <p className="font-bold mt-2 flex flex-row gap-4">
+          <p className="font-bold mt-2 flex flex-wrap gap-2 sm:gap-4">
             <span>24 years</span>
             <span>/ </span>
             <span>Robert Smith </span>
@@ -68,7 +76,7 @@ function Banner() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

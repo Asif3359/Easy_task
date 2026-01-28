@@ -21,12 +21,12 @@ const features = [
 
 function Pricing() {
   return (
-    <section className="mt-16 px-8 flex flex-row justify-end items-start">
-      <section className="w-3/4 px-12">
+    <section className="mt-12 px-3 md:px-8 sm:mt-16 md:ml-18">
+      <section className="w-full lg:w-3/4 lg:ml-auto">
         <h2 className="text-3xl font-semibold mb-6">Pricing</h2>
 
         <div className="grid gap-6 md:grid-cols-2">
-          {plans.map((plan, index) => (
+          {plans.map((plan) => (
             <div
               key={plan.name}
               className="bg-[#000000] rounded-md border border-[#262827] px-8 py-12 flex flex-col justify-between relative overflow-hidden"

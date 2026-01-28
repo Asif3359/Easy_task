@@ -3,8 +3,8 @@ import { MdSchool, MdWork } from "react-icons/md";
 
 function Lifetime() {
   return (
-    <section className="mt-16 px-8 flex flex-row justify-end items-start gap-16 ">
-      <section className="w-3/4 px-12">
+    <section className="mt-12 px-3 md:px-8 sm:mt-16 md:ml-18">
+      <section className="w-full lg:w-3/4 lg:ml-auto">
         <h1 id="resume" className="text-4xl font-semibold mb-8">
           Resume
         </h1>

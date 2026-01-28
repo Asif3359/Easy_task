@@ -7,8 +7,8 @@ function RightSideNavigation() {
   ];
 
   return (
-    <nav className="fixed top-78 -right-14 flex flex-col items-center gap-2 z-50">
-      <div className="text-gray-400 text-xs h-38 flex items-start">
+    <nav className="hidden lg:flex fixed top-64 -right-18 flex flex-col items-center gap-2 z-50">
+      <div className="text-gray-400 text-xs h-40 flex items-start">
         <p
           className="whitespace-nowrap origin-center"
           style={{
