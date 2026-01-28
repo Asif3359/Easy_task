@@ -40,7 +40,7 @@ function Banner() {
         </div>
       </div>
       <div className="flex-1 w-full">
-        <div className="p-4 sm:p-6 md:p-12 w-full md:w-4/5">
+        <div className="p-4 md:p-4 lg:p-12 w-full md:w-4/5">
           <h3 className="py-1">
             <span
               className="bg-[linear-gradient(89.71deg,#F5BD4D_0.36%,#F89222_99.88%)] 
